@@ -1,0 +1,35 @@
+.toogle{  
+    // background: linear-gradient(0deg, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)) url("../assets/icon/navbar-icon/toogle.png");
+    // filter: blur(16.5px);
+    position: fixed;
+    padding: 20px 30px;
+
+    top: 0;
+    z-index: 33;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)) ,  url("../assets/icon/navbar-icon/toogle.png");
+    background-repeat: no-repeat;
+    left: 0;
+
+    &__ChevronLeftIcon{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        color: white;
+        width: 40px;
+        height: 40px;
+        font-size: 40px;
+        display: flex;
+    }
+
+    &__list{
+        & p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
