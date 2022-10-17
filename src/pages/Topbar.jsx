@@ -48,7 +48,7 @@ function Topbar(){
                    <img src={Mail}  style={imgStyle} alt="logo" />
                 </li>
                 <li>
-                <SearchIcon  style={imgStyle}  />
+                  <SearchIcon  style={imgStyle}  />
                 </li>
               </ul>
 
