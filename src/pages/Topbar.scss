@@ -1,7 +1,14 @@
 .navbar{
     background: rgba(33, 33, 33, 0.8);
-backdrop-filter: blur(5.5px);
-padding: 20px 0;
+    backdrop-filter: blur(5.5px);
+    padding: 20px 0;
+  
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 &__list{
     display: flex;
     align-items: center;

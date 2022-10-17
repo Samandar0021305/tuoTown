@@ -3,6 +3,8 @@ import "./Topbar.scss";
 // img
 import navIcon from "../assets/icon/navbar-icon/navbar-icon.png";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import navIconImg from "../assets/icon/navbar-icon/navIconImg.png";
+
 function Topbar(){
     
     const imgStyle = {
@@ -13,7 +15,7 @@ function Topbar(){
 
     return(
         <nav  className="navbar">
-          <div className="container">
+          <div className="container navbar__box">
               <ul className="navbar__list">
                 <li>
                    <img  style={imgStyle} src={navIcon} alt="" />
@@ -31,6 +33,8 @@ function Topbar(){
                     <a href="tel:8 981 120-11-17">8 981 120-11-17</a>
                 </li>
               </ul>
+
+          <img src={navIconImg} style={imgStyle} alt="navbar logo" />
 
           </div>
         </nav>
