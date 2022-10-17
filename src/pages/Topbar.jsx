@@ -9,13 +9,20 @@ import Shop from "../assets/icon/navbar-icon/Shop.png";
 import Mail from "../assets/icon/navbar-icon/mail.png";
 
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import { useState } from "react";
 
 function Topbar(){
+
+    const [toogleClass, SettoogleClass] = useState('toogle__box')
     
     const imgStyle = {
         cursor:'pointer',
         display:'flex',
         color:"white"
+    }
+
+    let openToogle = ()=>{
+        SettoogleClass('toogle__box')
     }
          
 
@@ -25,7 +32,9 @@ function Topbar(){
           <div className="container navbar__box">
               <ul className="navbar__list">
                 <li>
-                   <img  style={imgStyle} src={navIcon} alt="" />
+                   <img onClick={()=>{
+                    SettoogleClass('toogle')
+                   }} style={imgStyle} src={navIcon} alt="" />
                 </li>
                 <li>
                     <LocationOnIcon  style={{
@@ -58,8 +67,8 @@ function Topbar(){
           </div>
         </nav>
 
-         <div className="toogle">
-          <ChevronLeftIcon  className="toogle__ChevronLeftIcon" />
+         <div className={toogleClass}>
+          <ChevronLeftIcon  onClick={openToogle} className="toogle__ChevronLeftIcon" />
             <ul className="toogle__list">
                  <li>
                   <p> Кухонные ножи TUOTOWN</p>
