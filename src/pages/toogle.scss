@@ -23,6 +23,10 @@
     }
 
     &__list{
+        padding-top: 10px;
+        & li{
+            margin-top: 10px;
+        }
         & p{
             font-style: normal;
             font-weight: 500;
@@ -30,6 +34,7 @@
             line-height: 22px;
             text-transform: uppercase;
             color: #FFFFFF;
+            cursor: pointer;
         }
     }
 }

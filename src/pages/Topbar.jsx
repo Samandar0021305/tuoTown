@@ -1,5 +1,8 @@
 import "./Topbar.scss";
 import "./toogle.scss";
+
+import { Link } from "react-router-dom";
+
 // img
 import navIcon from "../assets/icon/navbar-icon/navbar-icon.png";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -13,8 +16,9 @@ import { useState } from "react";
 
 function Topbar(){
 
-    const [toogleClass, SettoogleClass] = useState('toogle__box')
-    
+    const [toogleClass, SettoogleClass] = useState('toogle__box')    
+
+    const [linkClas,setlinkClass] = useState('linkflex')
     const imgStyle = {
         cursor:'pointer',
         display:'flex',
@@ -24,6 +28,12 @@ function Topbar(){
     let openToogle = ()=>{
         SettoogleClass('toogle__box')
     }
+
+    // if(toogleClass == 'toogle__box'){
+    //     setlinkClass('linkflex') 
+    // }else if(toogleClass == 'toogle'){
+    //     setlinkClass('openflex')
+    // }
          
 
     return(
@@ -34,6 +44,7 @@ function Topbar(){
                 <li>
                    <img onClick={()=>{
                     SettoogleClass('toogle')
+    
                    }} style={imgStyle} src={navIcon} alt="" />
                 </li>
                 <li>
@@ -67,11 +78,37 @@ function Topbar(){
           </div>
         </nav>
 
+
+        
+
+
+
+
+
+
          <div className={toogleClass}>
           <ChevronLeftIcon  onClick={openToogle} className="toogle__ChevronLeftIcon" />
             <ul className="toogle__list">
                  <li>
-                  <p> Кухонные ножи TUOTOWN</p>
+                  <p>
+                    <Link   to='/news' >
+                       Новости
+                    </Link>
+                     </p>
+                 </li>
+                 <li>
+                  <p> 
+                    <Link>О компании</Link>
+                  </p>
+                 </li>
+                 <li>
+                  <p>
+                     <Link>
+                  Контакты
+                  </Link></p>
+                 </li>
+                 <li>
+                  <p> <Link> Как проехать</Link></p>
                  </li>
             </ul>
          </div>

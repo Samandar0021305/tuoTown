@@ -30,6 +30,7 @@
 }
 &__topbar{
     &__list{
+        // padding-top: 20px;
         display: flex;
         & li{
             margin: 0 13px;
@@ -39,4 +40,11 @@
         }
     }
 }
+}
+
+.linkflex{
+    display: none !important;
+}
+.openflex{
+    display: flex;
 }
