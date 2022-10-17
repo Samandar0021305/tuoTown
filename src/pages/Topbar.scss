@@ -2,4 +2,23 @@
     background: rgba(33, 33, 33, 0.8);
 backdrop-filter: blur(5.5px);
 padding: 20px 0;
+&__list{
+    display: flex;
+    align-items: center;
+  & li{
+    margin: 0 20px;
+    & a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+  }
+  & li:nth-child(1){
+    margin: 0 !important;
+  }
+
+}
 }
