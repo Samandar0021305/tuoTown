@@ -9,5 +9,9 @@ ul,li{
 a{
   text-decoration: none;
 }
+.container{
+  width: 88%;
+  margin: 0 auto;
+}
 
 @import "./normalize.scss";
