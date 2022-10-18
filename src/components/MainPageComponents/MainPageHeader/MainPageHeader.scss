@@ -3,6 +3,7 @@
     height: 590px;
     background-size: 100% 100%;
     &__box{
+        padding-top: 20px;
         & h2{
             font-style: normal;
             font-weight: 400;
@@ -10,6 +11,7 @@
             line-height: 48px;
            width: 50%;
             color: white;
+            margin: 10px 20px;
         }
         & p{
             font-style: normal;
@@ -18,6 +20,7 @@
             line-height: 23px;
             color: #FFFFFF;
             width: 48%;
+            margin: 20px 20px;
         }
         & button{
             border: 2px solid #C80000;
@@ -26,6 +29,7 @@
             font-weight: 600;
             font-size: 14px;
             line-height: 23px;
+            margin: 10px 20px;
             /* identical to box height, or 164% */
             cursor: pointer;
             color: #FFFFFF;
