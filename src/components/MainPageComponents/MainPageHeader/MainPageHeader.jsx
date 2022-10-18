@@ -6,6 +6,9 @@ function MainPageHeader(){
     return(
         <header className="header">
             <Topbar />
+            <div className="header__box">
+               
+            </div>
         </header>
     )
 }

@@ -40,9 +40,9 @@ function Topbar(){
 
     return(
        <>
-        <nav  className="navbar">
+        <nav  className="navbar" >
           <div className="container navbar__box">
-              <ul className="navbar__list">
+              <ul  className="navbar__list">
                 <li>
                    <img  onClick={()=>{
                     SettoogleClass('toogle')
@@ -63,7 +63,9 @@ function Topbar(){
                 </li>
               </ul>
 
-          <img src={navIconImg} style={imgStyle} alt="navbar logo" />
+          <img onClick={()=>{
+          setlinkClass('linkflex')
+        }} src={navIconImg} style={imgStyle} alt="navbar logo" />
          
               <ul className="navbar__topbar__list">
                 <li>
