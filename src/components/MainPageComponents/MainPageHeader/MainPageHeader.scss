@@ -2,4 +2,37 @@
     background: linear-gradient(268.39deg, rgba(0, 0, 0, 0) 21.45%, #000000 85.16%), url("../../../assets/img/header/MainPageHeader-back.png");
     height: 590px;
     background-size: 100% 100%;
+    &__box{
+        & h2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 41px;
+            line-height: 48px;
+           width: 50%;
+            color: white;
+        }
+        & p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 23px;
+            color: #FFFFFF;
+            width: 48%;
+        }
+        & button{
+            border: 2px solid #C80000;
+            border-radius: 27px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 23px;
+            /* identical to box height, or 164% */
+            cursor: pointer;
+            color: #FFFFFF;
+            background-color: transparent;
+            width: 165px;
+            height: 55px;
+
+        }
+    }
 }
