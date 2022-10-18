@@ -48,3 +48,19 @@
 .openflex{
     display: flex !important;
 }
+
+@media (max-width:642px){
+    .navbar{
+        &__list{
+            & li{
+                margin: 0 10px;
+            }
+        }
+        &__link{
+            display: none;
+        }
+        &__topbar__list{
+            display: none !important;
+        }
+    }
+}

@@ -59,7 +59,7 @@ function Topbar(){
                     }}  />
                 </li>
                 <li>
-                    <a href="tel:8 981 120-11-17">8 981 120-11-17</a>
+                    <a className="navbar__link" href="tel:8 981 120-11-17">8 981 120-11-17</a>
                 </li>
               </ul>
 
@@ -100,17 +100,17 @@ function Topbar(){
                  </li>
                  <li>
                   <p> 
-                    <Link className={linkClas}>О компании</Link>
+                    <Link className={linkClas} to='/news'>О компании</Link>
                   </p>
                  </li>
                  <li>
                   <p>
-                     <Link className={linkClas}>
+                     <Link className={linkClas} to='/news'>
                   Контакты
                   </Link></p>
                  </li>
                  <li>
-                  <p> <Link className={linkClas}> Как проехать</Link></p>
+                  <p> <Link className={linkClas} to='/news'> Как проехать</Link></p>
                  </li>
             </ul>
          </div>
