@@ -16,9 +16,9 @@ import { useState } from "react";
 
 function Topbar(){
 
-    const [toogleClass, SettoogleClass] = useState('toogle__box')    
+    const [toogleClass, SettoogleClass] = useState('toogle__box');    
+    const [linkClas,setlinkClass] = useState('linkflex');
 
-    const [linkClas,setlinkClass] = useState('linkflex')
     const imgStyle = {
         cursor:'pointer',
         display:'flex',
