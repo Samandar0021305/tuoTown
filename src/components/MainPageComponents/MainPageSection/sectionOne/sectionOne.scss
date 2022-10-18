@@ -13,9 +13,12 @@
         font-weight: 500;
         font-size: 17px;
         line-height: 21px;
+        cursor: pointer;
         /* identical to box height */
-
-
+           transition: color 0.4s ease-in-out  ;
+         &:hover{
+            color: #FF0000;
+         }
         color: #FFFFFF;
 
         opacity: 0.4;
