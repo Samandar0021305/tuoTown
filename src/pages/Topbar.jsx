@@ -44,7 +44,7 @@ function Topbar(){
           <div className="container navbar__box">
               <ul className="navbar__list">
                 <li>
-                   <img onClick={()=>{
+                   <img  onClick={()=>{
                     SettoogleClass('toogle')
                     setlinkClass('openflex')
                    }} style={imgStyle} src={navIcon} alt="" />
@@ -89,7 +89,9 @@ function Topbar(){
 
 
          <div className={toogleClass}>
-          <ChevronLeftIcon  onClick={openToogle} className="toogle__ChevronLeftIcon" />
+          <span className={linkClas}>
+          <ChevronLeftIcon  onClick={openToogle} className={ "toogle__ChevronLeftIcon"}  />
+          </span>
             <ul className="toogle__list">
                  <li>
                   <p>
