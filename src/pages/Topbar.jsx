@@ -26,8 +26,10 @@ function Topbar(){
     }
 
     let openToogle = ()=>{
+      setlinkClass('linkflex')
         SettoogleClass('toogle__box')
     }
+
 
     // if(toogleClass == 'toogle__box'){
     //     setlinkClass('linkflex') 
@@ -44,7 +46,7 @@ function Topbar(){
                 <li>
                    <img onClick={()=>{
                     SettoogleClass('toogle')
-    
+                    setlinkClass('openflex')
                    }} style={imgStyle} src={navIcon} alt="" />
                 </li>
                 <li>
@@ -91,24 +93,24 @@ function Topbar(){
             <ul className="toogle__list">
                  <li>
                   <p>
-                    <Link   to='/news' >
+                    <Link className={linkClas}   to='/news' >
                        Новости
                     </Link>
                      </p>
                  </li>
                  <li>
                   <p> 
-                    <Link>О компании</Link>
+                    <Link className={linkClas}>О компании</Link>
                   </p>
                  </li>
                  <li>
                   <p>
-                     <Link>
+                     <Link className={linkClas}>
                   Контакты
                   </Link></p>
                  </li>
                  <li>
-                  <p> <Link> Как проехать</Link></p>
+                  <p> <Link className={linkClas}> Как проехать</Link></p>
                  </li>
             </ul>
          </div>
