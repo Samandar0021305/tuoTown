@@ -1,0 +1,24 @@
+.sectionOne{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    & li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        & h2{
+            margin-top: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+
+        opacity: 0.4;
+        }
+    }
+}
