@@ -7,6 +7,9 @@ import card4 from "../../../../assets/img/section/2-blok/card4.png"
 import card5 from "../../../../assets/img/section/2-blok/card5.png"
 import card6 from "../../../../assets/img/section/2-blok/card6.png"
 
+import AddIcon from '@mui/icons-material/Add';
+
+
 function SectionTwo(){
     
     return(
@@ -19,6 +22,7 @@ function SectionTwo(){
             <ul className="sectionTwo__list">
               <li>
                  <span>
+                 <AddIcon  className="AddIcon"/>
                     <img src={card1} alt="" />
                  </span>
                  <h3>Складной нож SQ01-B</h3>
@@ -26,6 +30,7 @@ function SectionTwo(){
               </li>
               <li>
                  <span>
+                    <AddIcon className="AddIcon" />
                     <img src={card2} alt="" />
                  </span>
                  <h3>Складной нож JJ001-TUO-B</h3>
