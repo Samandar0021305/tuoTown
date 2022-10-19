@@ -2,12 +2,14 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+   
     & li{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
+        margin-top: 20px;
         & h2{
             margin-top: 20px;
         font-style: normal;
@@ -24,5 +26,12 @@
 
         opacity: 0.4;
         }
+    }
+}
+
+
+@media (max-width:800px){
+    .sectionOne{
+        display: none !important;
     }
 }
