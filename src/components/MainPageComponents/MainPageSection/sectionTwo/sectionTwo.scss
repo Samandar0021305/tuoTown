@@ -96,3 +96,32 @@
     color: white;
     padding: 1px;
 }
+
+@media (max-width:1300px){
+    .sectionTwo{
+        &__topbar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+             
+        }
+        &__list{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width:700px){
+    .sectionTwo{
+        &__bg{
+            display: flex;
+            width: 90% !important;
+            & img{
+                width: 100%;
+            }
+        }
+    }
+}
