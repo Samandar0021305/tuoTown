@@ -42,12 +42,10 @@
                 position: relative;
                 display: flex;
                 height: 412px;
-            //   justify-content: center;
-            //   align-items: center;
-              flex-direction: column;
-             background: #272727;
-            cursor: pointer;
-            border-radius: 14px;
+                flex-direction: column;
+                background: #272727;
+                cursor: pointer;
+                border-radius: 14px;
             & img{
                 margin-top: 40%;
             }
