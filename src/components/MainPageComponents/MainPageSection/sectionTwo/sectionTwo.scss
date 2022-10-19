@@ -1,11 +1,31 @@
 .sectionTwo{
+    padding-top: 90px;
     display: flex;
+    padding-bottom: 10px;
     align-items: center;
     flex-wrap: wrap;
     display: flex;
     &__bg{
-        background-image: url("../../../../assets/img/section/2-blok/Rectangle\ 33.png");
-        height: 481px;
-        background-size: 100% 100%;
+        display: flex;
+        position: relative;
+        &::after{
+            content: "Познакомьтесь с коллекцией ножей TUOTOWN";
+            position: absolute;
+            bottom: 30px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 28px;
+            /* identical to box height, or 165% */
+              left: 20px;
+              user-select: contain;
+
+            color: #FFFFFF;
+        }
+        & img{
+            display: flex;
+            width: 100%;
+            cursor: pointer;
+        }
     }
 }
