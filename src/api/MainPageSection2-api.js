@@ -6,18 +6,7 @@ import card5 from "../assets/img/section/2-blok/card5.png";
 import card6 from "../assets/img/section/2-blok/card6.png";
 
 const restApi = [
-    {
-        id:1,
-        img:card1,
-        text:"850 р.",
-        title:"Складной нож SQ01-B"
-    },
-    {
-        id:2,
-        img:card2,
-        text:"12 850 р.",
-        title:"Складной нож JJ001-TUO-B"
-    },
+   
     {
         id:3,
         img:card3,
@@ -44,4 +33,20 @@ const restApi = [
     },
 ]
 
-export default restApi;
+
+const restApiOne = [
+    {
+        id:1,
+        img:card1,
+        text:"850 р.",
+        title:"Складной нож SQ01-B"
+    },
+    {
+        id:2,
+        img:card2,
+        text:"12 850 р.",
+        title:"Складной нож JJ001-TUO-B"
+    },
+]
+
+export default {restApi , restApiOne};

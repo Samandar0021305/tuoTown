@@ -5,18 +5,36 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
+    &__topbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     &__list{
         display: flex;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         & li{
-            width: 286px;
-            height: 451px;
-            & img{
+            width: 270px;
+            height: 481px;
+            margin: 0 10px;
+            & span{
                 display: flex;
+                height: 412px;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+             background: #272727;
+ 
             }
         }
     }
+    
+
+
     &__bg{
         display: flex;
         position: relative;
