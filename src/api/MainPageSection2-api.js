@@ -1,9 +1,9 @@
 import card1 from "../assets/img/section/2-blok/card1.png";
-import card2 from "../assets/img/section/2-blok/card1.png";
-import card3 from "../assets/img/section/2-blok/card1.png";
-import card4 from "../assets/img/section/2-blok/card1.png";
-import card5 from "../assets/img/section/2-blok/card1.png";
-import card6 from "../assets/img/section/2-blok/card1.png";
+import card2 from "../assets/img/section/2-blok/card2.png";
+import card3 from "../assets/img/section/2-blok/card3.png";
+import card4 from "../assets/img/section/2-blok/card4.png";
+import card5 from "../assets/img/section/2-blok/card5.png";
+import card6 from "../assets/img/section/2-blok/card6.png";
 
 const restApi = [
     {

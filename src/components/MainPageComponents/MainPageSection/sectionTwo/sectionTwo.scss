@@ -2,12 +2,25 @@
     padding-top: 90px;
     display: flex;
     padding-bottom: 10px;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
-    display: flex;
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        & li{
+            width: 286px;
+            height: 451px;
+            & img{
+                display: flex;
+            }
+        }
+    }
     &__bg{
         display: flex;
         position: relative;
+        width: 590px;
         &::after{
             content: "Познакомьтесь с коллекцией ножей TUOTOWN";
             position: absolute;
