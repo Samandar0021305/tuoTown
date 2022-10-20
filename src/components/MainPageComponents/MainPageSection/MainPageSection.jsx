@@ -7,6 +7,7 @@ import restApiOne from "../../../api/MainPageSection2-api";
 import SectionOne  from "./sectionOne/SectionOne.jsx";
 import SectionTwo from "./sectionTwo/SectionTwo";
 import SectionTree from "./SectionTree/SectionTree.jsx";
+import SectionFor from "./sectionFor/SectionFor.jsx";
 
 function MainPageSection(){
     return(
@@ -15,6 +16,7 @@ function MainPageSection(){
               <SectionOne props={MainPageSection1Api} />
               <SectionTwo  />
               <SectionTree />
+              <SectionFor />
             </div>
         </section>
     )
