@@ -3,10 +3,13 @@ import MainPageHeader from "../../components/MainPageComponents/MainPageHeader/M
 import MainPageSection from "../../components/MainPageComponents/MainPageSection/MainPageSection.jsx";
 
 function MainPage(){
+    
+
     return(
         <>
          <MainPageHeader />
           <MainPageSection />
+         
         </>
     )
 }
