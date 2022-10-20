@@ -2,7 +2,9 @@ import "./MainPageSectionNew.scss";
 
 function MainPageSectionNew(){
     return(
-        <section></section>
+        <section>
+            
+        </section>
     )
 }
 
