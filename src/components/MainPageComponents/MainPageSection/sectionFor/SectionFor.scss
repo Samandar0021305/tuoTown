@@ -1,0 +1,37 @@
+.sectionFor{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    & div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    &__title{
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 42px;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+    &__input{
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #FFFFFF;
+        display: flex;
+        width: 236px;
+        outline: none;
+        padding: 0 5px;
+        height: 49px;
+        opacity: 0.5;
+        background: #272727;
+        border-radius: 6px;
+    }
+}
