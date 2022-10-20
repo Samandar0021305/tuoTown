@@ -6,6 +6,7 @@ import restApiOne from "../../../api/MainPageSection2-api";
 // componmnets
 import SectionOne  from "./sectionOne/SectionOne.jsx";
 import SectionTwo from "./sectionTwo/SectionTwo";
+import SectionTree from "./SectionTree/SectionTree.jsx";
 
 function MainPageSection(){
     return(
@@ -13,6 +14,7 @@ function MainPageSection(){
             <div className="container">
               <SectionOne props={MainPageSection1Api} />
               <SectionTwo  />
+              <SectionTree />
             </div>
         </section>
     )

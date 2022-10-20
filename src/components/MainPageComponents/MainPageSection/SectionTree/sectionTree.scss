@@ -1,0 +1,11 @@
+.SectionTree{
+    &__item1{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0;
+        & img{
+            margin: 0;
+            width: 100%;
+        }
+    }
+}
